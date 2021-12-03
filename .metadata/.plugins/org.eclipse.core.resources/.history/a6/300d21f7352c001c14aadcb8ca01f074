@@ -1,0 +1,21 @@
+package mozila;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+
+public class Package {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.firefox.marionette", "C:\\Users\\Dell\\Downloads\\geckodriver-v0.30.0-win64//geckodriver.exe");
+	    WebDriver driver = new FirefoxDriver();
+	    driver.get("https://www.google.com");
+	    driver.findElement(By.name())
+	    
+		
+
+	}
+
+}

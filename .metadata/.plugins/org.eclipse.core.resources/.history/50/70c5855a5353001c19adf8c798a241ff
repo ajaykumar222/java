@@ -1,0 +1,4 @@
+2021-12-02 15:02:29,741 [main] INFO TC_Login_1 - URL is opened
+2021-12-02 15:02:30,180 [main] INFO TC_Login_1 - Entered Usernane
+2021-12-02 15:02:30,328 [main] INFO TC_Login_1 - Entered Password
+2021-12-02 15:02:30,429 [main] INFO TC_Login_1 - Login test passed

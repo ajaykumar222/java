@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="GitSelectRepositoryPage.lastRepository" value="C:\Users\Dell\git\Testing\.git"/>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/Ajaykumar866/Testing.git"/>
+		<item value="https://github.com/Ajaykumar866/java.git"/>
+	</list>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+		<item value="bitbucket.org"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="Ajay kumar &lt;ajaykumar8050290@gmail.com&gt;"/>
+		<item value="Dell &lt;Dell@DESKTOP-C2F25D7&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="Ajay kumar &lt;ajaykumar8050290@gmail.com&gt;"/>
+		<item value="Dell &lt;Dell@DESKTOP-C2F25D7&gt;"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\Dell\git\repository\.git">
+			<item value="false"/>
+			<item value="Ajay kumar &lt;ajaykumar8050290@gmail.com&gt;"/>
+			<item value="first project"/>
+			<item value="Ajay kumar &lt;ajaykumar8050290@gmail.com&gt;"/>
+			<item value="9aead2d718ed66704f6475ee9f46913535fbf5f9"/>
+			<item value="0"/>
+			<item value="false"/>
+		</list>
+		<list key="C:\Users\Dell\git\java\.git">
+			<item value="false"/>
+			<item value="Ajay kumar &lt;ajaykumar8050290@gmail.com&gt;"/>
+			<item value="FIRST JAVA"/>
+			<item value="Ajay kumar &lt;ajaykumar8050290@gmail.com&gt;"/>
+			<item value="ed78c694493f3a93130d12c72b05898a01908e4b"/>
+			<item value="0"/>
+			<item value="false"/>
+		</list>
+		<list key="C:\Users\Dell\git\repository\java\.git">
+			<item value="empty"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.dialogs.ResetTargetSelectionDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="422"/>
+		<item key="DIALOG_Y_ORIGIN" value="8"/>
+		<item key="DIALOG_WIDTH" value="538"/>
+		<item key="DIALOG_HEIGHT" value="728"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>
