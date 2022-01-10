@@ -7,13 +7,13 @@
   <test thread-count="5" name="Sevenchats test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="sevenchats_V1.testCases.TC_Login_1">
+      <class name="sevenchats_V1.testCases.TC_SignUp_1">
         <methods>
           <include name="setup"/>
+          <include name="Signup"/>
           <include name="teardown"/>
-          <include name="loginTest"/>
         </methods>
-      </class> <!-- sevenchats_V1.testCases.TC_Login_1 -->
+      </class> <!-- sevenchats_V1.testCases.TC_SignUp_1 -->
     </classes>
   </test> <!-- Sevenchats test(failed) -->
 </suite> <!-- Failed suite [Sevenchats_V1] -->

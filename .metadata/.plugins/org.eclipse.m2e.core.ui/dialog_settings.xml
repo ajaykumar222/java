@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Dell\eclipse-workspace\Sevenchats_V1\src\test\java\sevenchats_V1\testCases\TC_SignUp_1.java"/>
 			<item value="C:\Users\Dell\eclipse-workspace\Dom"/>
 			<item value="C:\Users\Dell\eclipse-workspace\ifelse\src\ifelse\Methodoverloading.java"/>
 		</list>
@@ -27,14 +28,17 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="RestAssured.Test"/>
 			<item value="Sevenchats.Sevenchats_V1"/>
 			<item value="inetBankingv1.inetBankingv1"/>
 		</list>
 		<list key="groupId">
+			<item value="RestAssured"/>
 			<item value="Sevenchats"/>
 			<item value="inetBankingv1"/>
 		</list>
 		<list key="artifactId">
+			<item value="Test"/>
 			<item value="Sevenchats_V1"/>
 			<item value="inetBankingv1"/>
 		</list>

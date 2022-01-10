@@ -62,7 +62,10 @@ public class LoginPage {
 	{
 		btnLogin.click();
 	}
-	
+	public void clickSignup() {
+		signUP.click();
+		
+	}
 	
 	
 	

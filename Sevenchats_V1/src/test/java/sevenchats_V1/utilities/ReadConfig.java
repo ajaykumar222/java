@@ -48,7 +48,48 @@ public class ReadConfig {
 		return FireFox;
 		
 	}
-	
+	public String getfname()
+	{
+		String Fname = pro.getProperty("fname");
+		return Fname;
+		
+	}
+	public String getlname()
+	{
+		String Lname = pro.getProperty("lname");
+		return Lname;
+		
+	}
+	public String getemail()
+	{
+		String Email = pro.getProperty("email");
+		return Email;
+		
+	}
+	public String getGender()
+	{
+		String gender = pro.getProperty("Gender");
+		return gender;
+		
+	}
+	public String getPass()
+	{
+		String pass = pro.getProperty("Password");
+		return pass;
+		
+	}
+	public String getcpassword()
+	{
+		String Cpassword = pro.getProperty("cpassword");
+		return Cpassword;
+		
+	}
+	public String getMobileno()
+	{
+		String MobileNo = pro.getProperty("Mobileno");
+		return MobileNo;
+		
+	}
 	
 	
 	

@@ -6,6 +6,8 @@ public class LoggerExample {
 	
 	
 	public static  Logger logger = Logger.getLogger(LoggerExample.class);
+	
+	propertyconfigurator.configure("log4j.properties");
 
 	public void testLoggerDebug() {
 		logger.debug("Hello.. im in Debug method");

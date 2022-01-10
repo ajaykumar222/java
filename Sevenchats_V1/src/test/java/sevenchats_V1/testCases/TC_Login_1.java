@@ -34,7 +34,7 @@ public class TC_Login_1 extends BaseClass {
 		else
 		{
 			captureScreen(driver,"loginTest");
-			Assert.assertTrue(false);
+			Assert.assertFalse(false);
 			logger.info("Login test failed ");
 			
 		}

@@ -1,10 +1,12 @@
 package sevenchats_V1.pageobjects;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 public class signUP {
 	WebDriver driver;
@@ -33,11 +35,13 @@ public class signUP {
     @FindBy(name ="confirm_password")
     WebElement cPassword;
     
-    @FindBy(xpath ="//body/div[@id='root']/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[4]/div[1]/div[1]/picture[1]/img[1]")
+    @FindBy(name ="date_of_birth")
+	
     WebElement date;
     
     @FindBy(name ="mobile")
-    WebElement mobileNO;
+     WebElement mobileNO;
+    
     
     @FindBy(name ="country")
     WebElement country;
@@ -69,21 +73,19 @@ public class signUP {
 	}
 	public void setGender(String Gender)
 	{
-		gender.click();
+		
 		if(Gender.equals("Male"))
 		{
 		
-			gender =driver.findElement(By.xpath("//option[contains(text(),'Male')]"));
-		
-			gender.click();
+			Select se= new Select(gender);
+			se.selectByValue("1");
 			
 		}
 		else
 		{
 			
-			gender =(driver.findElement(By.xpath("//option[contains(text(),'Female')]")));
-			
-			gender.click();
+			Select se =new Select(gender);
+			se.selectByValue("2");
 		}
 	}
     public void setPassword(String Password)
@@ -94,25 +96,51 @@ public class signUP {
     {
     	cPassword.sendKeys(cpassword);
     }
-    public void setCalendar() throws InterruptedException
+    public  void setCalendar() throws InterruptedException 
     
     {
     	date.click();
-    	 Thread.sleep(3000);
-    	 date = driver.findElement(By.xpath("//body/div[4]/div[2]/div[1]/div[2]/div[1]/span[4]"));
-    	 date.click();
+    	Thread.sleep(3000);
+    	 WebElement r = driver.findElement(By.xpath("//body/div[4]/div[2]/div[1]/div[2]/div[1]"));
+         driver.switchTo().frame(r);
+        
+    	date.findElement(By.xpath("//body/div[4]/div[2]/div[1]/div[2]/div[1]/span[4]")).click();
+
     	 
     }
     public void setMobile(String Mobileno)
     {
     	mobileNO.sendKeys(Mobileno);
     }
+    public void setCountry()
+    {
+    	Select select = new Select(country);
+    	
+    	select.selectByValue("India");
+    	
+    }
     
+    public void setState()
+    {
+    	Select select = new Select(state);
+    	
+    	select.selectByValue("Karnataka");
+    }
+    public void setCity()
+    {
+    	Select select = new Select(city);
+    	
+    	select.selectByValue("Bangalore");
+    }
+    public void setSelect()
+    {
+    	 rButton.click();
+    }
+    public void setSignup()
+    {
+    	signUp.click();
+    }
    
-    
-    
-    
-    
 	
 	
 	

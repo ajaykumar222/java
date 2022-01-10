@@ -9,7 +9,7 @@
   <test name="Sevenchats test">
   <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="sevenchats_V1.testCases.TC_Login_1"/>
+      <class name="sevenchats_V1.testCases.TC_SignUp_1"/>
     </classes>
     </test>
  
