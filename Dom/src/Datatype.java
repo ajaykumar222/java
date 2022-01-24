@@ -3,7 +3,11 @@ public class Datatype {
 
 	public static void main(String[] args) {
 		
-		int a = 5;               // Integer (whole number)
+		int a = 5;
+		 ++a;
+		
+		
+		
 		float myFloatNum = 5.99f;    // Floating point number
 		char myLetter = 'D';         // Character
 		boolean myBool = true;       // Boolean
