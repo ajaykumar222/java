@@ -1,5 +1,6 @@
 package inetBankingv1.inetBankingv1;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.CacheLookup;
@@ -15,13 +16,9 @@ public class Base {
 	
 	System.setProperty("webdriver.chrome.driver", "C:/Users/Dell/OneDrive/Documents/chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
-	driver.get("http://demo.guru99.com/V4/index.php");
+	driver.get("https://qa.sevenchats.com:7444/home");
 	
-	pagefactory first =PageFactory.initElements(driver, pagefactory.class);
-	first.method();
-	
-	first.close();
-	
+	driver.findElement(By.xpath("//textarea[@id='message']").sendKeys("hi");
 	}
 	
 
