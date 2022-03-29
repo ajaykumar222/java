@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="inetBankingv1.inetBankingv1.AppiumTest">
+      <class name="inetBankingv1.inetBankingv1.aaaaa">
         <methods>
-          <include name="setUp"/>
-          <include name="testCal"/>
-          <include name="teardown"/>
+          <include name="method"/>
         </methods>
-      </class> <!-- inetBankingv1.inetBankingv1.AppiumTest -->
+      </class> <!-- inetBankingv1.inetBankingv1.aaaaa -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

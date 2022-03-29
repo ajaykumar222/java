@@ -14,12 +14,14 @@ public class Screenshot {
 	@Test
 	public void setCalendar() throws InterruptedException, IOException
 	{
-		System.setProperty("webdriver.chrome.driver", "C:/Users/Dell/OneDrive/Documents/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dell\\OneDrive\\Desktop\\Jar files\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://qa.sevenchats.com:7443/sign_up");
+		driver.get("https://www.google.com/");
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		File trg= new File("C:/Users/Dell/OneDrive/Pictures/Screenshots/twoplugs.png");
+		File trg= new File("./Screenshots/twoplugs.png");
+		System.out.println("the screenshot was captured");
 		FileUtils.copyFile(src, trg);
+		driver.quit();
 	}
 
 }

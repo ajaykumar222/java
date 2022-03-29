@@ -1,26 +1,29 @@
 
 public class xelate2 {
+	String sname;
+	int id;
+	int marks;
+	String fathersname;
+	void student() {
+		System.out.println("the name od the student :"+sname);
+		System.out.println("the id of the student :"+id);
+		System.out.println("the name od the student :"+marks);
+		System.out.println("the name od the student :"+fathersname);
+	}
 	
 	
 	
-	public static void Swap(int i,int b) {
-		int c=i+b;
-		
-		
-		System.out.println(c);
-		
-		
-		
-		
-		}
 
 	public static void main(String[] args) {
-		int a=20,b=30;
+		xelate2 a=new xelate2();
+		a.sname="ajay";
+		a.id=2500;
+		a.marks=46;
+		a.fathersname="anand";
+		a.student();
 		
-		if(a>=0) {
-			Swap(a,b);
-			a--;
-		}
+		
+		
 		
 		
 		
