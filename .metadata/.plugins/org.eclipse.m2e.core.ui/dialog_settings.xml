@@ -28,17 +28,20 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.cucumber.test"/>
 			<item value="Sevenchats.com.app"/>
 			<item value="RestAssured.Test"/>
 			<item value="Sevenchats.Sevenchats_V1"/>
 			<item value="inetBankingv1.inetBankingv1"/>
 		</list>
 		<list key="groupId">
+			<item value="com"/>
 			<item value="Sevenchats"/>
 			<item value="RestAssured"/>
 			<item value="inetBankingv1"/>
 		</list>
 		<list key="artifactId">
+			<item value="cucumber.test"/>
 			<item value="com.app"/>
 			<item value="Test"/>
 			<item value="Sevenchats_V1"/>

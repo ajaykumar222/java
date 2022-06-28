@@ -1,1 +1,11 @@
+<<<<<<< HEAD
 /.metadata/
+=======
+.classpath
+.project
+.settings/
+target/
+test-output/
+Reports/
+Screenshots/
+>>>>>>> 0e8c4692b392e407a33f34012992a4c5f5bec652
